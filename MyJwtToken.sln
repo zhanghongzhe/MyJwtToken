@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJwtToken", "MyJwtToken\MyJwtToken.csproj", "{207FC4BE-6846-43F3-8CE0-6425704C4E89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenUtils", "Utils\TokenUtils.csproj", "{DD5BED1C-43E5-4CD9-A042-DCE0568EA18B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApi", "MvcApi\MvcApi.csproj", "{A2B113FE-45FC-45FB-81A8-937EC7466D93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{207FC4BE-6846-43F3-8CE0-6425704C4E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207FC4BE-6846-43F3-8CE0-6425704C4E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207FC4BE-6846-43F3-8CE0-6425704C4E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207FC4BE-6846-43F3-8CE0-6425704C4E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD5BED1C-43E5-4CD9-A042-DCE0568EA18B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD5BED1C-43E5-4CD9-A042-DCE0568EA18B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD5BED1C-43E5-4CD9-A042-DCE0568EA18B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5BED1C-43E5-4CD9-A042-DCE0568EA18B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B113FE-45FC-45FB-81A8-937EC7466D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B113FE-45FC-45FB-81A8-937EC7466D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B113FE-45FC-45FB-81A8-937EC7466D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B113FE-45FC-45FB-81A8-937EC7466D93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
